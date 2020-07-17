@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cloud_remote:war exploded">
+    <output-path>$PROJECT_DIR$/target/cloud_remote</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cloud_remote" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/cloud_remote/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cloud_remote/web/Web" />
+    </root>
+  </artifact>
+</component>
