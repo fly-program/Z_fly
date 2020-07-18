@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface NoticeDao {
-    public Notice findByNoticeName(String notice_name);
+    public Notice findByNoticeName(String  notice_name);
 }

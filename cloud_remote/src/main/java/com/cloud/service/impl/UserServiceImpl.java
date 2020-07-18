@@ -4,6 +4,7 @@ import com.cloud.dao.UserDao;
 import com.cloud.entity.User;
 import com.cloud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
