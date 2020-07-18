@@ -19,7 +19,6 @@
     <context:property-placeholder location="classpath:db.properties" />
 
     <!-- 配置 C3P0 数据源 -->
-
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
         <property name="driverClass" value="${datasource.connection.driver_class}"/>
         <property name="jdbcUrl" value="${datasource.connection.url}"/>
